@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int speed;
+
+    // Prompt the user to enter the speed
+    cout << "Enter the speed of the vehicle: ";
+    cin >> speed;
+
+    // Check the speed and display the message
+    if (speed < 20) {
+        cout << "Too slow" << endl;
+    } else if (speed > 80) {
+        cout << "Too fast" << endl;
+    } else {
+        cout << "Just right" << endl;
+    }
+
+    return 0;
+}
